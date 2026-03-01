@@ -19,21 +19,17 @@ Supports dry-run mode to preview actions without moving files.
 Run from terminal:
 
 Dry-run (preview changes):
-
 ```bash
 py smart_file_organizer.py --dry-run "C:\Users\YourUser\Desktop\test_file_org"
 ```
-
 Normal mode (move files):
-
-py smart_file_organizer.py "C:\Users\YourUser\Desktop\test_file_org"
-
+```bash
+py smart_file_organizer.py "C:\Users\YourUser\YourFile\"
+```
 Default folder (Downloads):
-
+```bash
 py smart_file_organizer.py
-
+```
 ⚙️ Requirements
-
 Python 3.10+
-
 Standard library only (no external dependencies)
